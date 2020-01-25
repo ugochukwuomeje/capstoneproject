@@ -1,0 +1,476 @@
+
+body {
+
+    padding: 0;
+    margin: 0;
+    background-color: #efefef !important;
+}
+
+main{
+    background-color: #efefef;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header.top-header {
+
+    background-color: #fff;
+    margin-top: 20px;
+    box-sizing: border-box;
+    height: 65px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul.top-menu {
+    
+    display: flex;
+    justify-content: start;
+}
+
+ul.top-menu .carret {
+
+    color: #ccc;
+    margin-top: 20px;
+    margin-left: 1.2em;
+}
+
+ul.top-menu li, ul.top-menu li ul, ul.top-menu li ul li {
+
+    list-style-type: none;
+    height: 65px;
+    box-sizing: border-box;
+}
+
+ul.top-menu li .location-icon{
+
+    background-color: #efefef;
+    padding: 3px;
+    color: #cdcdcd;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+ul li .location {
+
+    color: #ccc;
+    font-size: 0.7em;
+    height: 65px;
+    display: inline-block;
+    
+    
+}
+
+ul li .london {
+
+    color: #ababab;
+    text-decoration: underline;
+    font-size: 0.7em;
+    height: 65px;
+}
+
+ul.top-menu li ul li{
+
+    display: inline-block;
+    list-style-type: none;
+}
+
+.top-menu .swipex {
+
+    font-family: 'Fredoka One', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+    margin-top: 0.3em;
+    flex-grow: 14;
+    
+}
+
+.top-menu .swipex span.ex {
+
+    color: rgba(255, 88, 37, 0.87);
+}
+
+.top-menu .swipex span.swip {
+
+    color: #4403ddfa;
+}
+
+header ul.top-menu li.notifications ul li{
+
+   display: inline-block;
+   margin-right: 1em;
+   font-size:23px;
+   color: #ccc;
+}
+
+/*******************************this section si for the left side *************************************/
+aside .profile {
+ 
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 2em;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+aside .profile figure {
+
+    text-align: center;
+    width: 55px;
+    margin-left: 1.2em;
+    box-sizing: border-box;
+    margin-top: 1em;
+
+}
+
+aside .profile figure img{
+
+    border-radius: 10px;
+    width: 55px;
+    height: 55px;
+}
+
+aside .profile .name {
+
+    color: #333444;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin-top: 1.5em;
+    margin-left: -1em;
+}
+
+aside .profile .status {
+
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    font-weight: bolder;
+    display: inline-block;
+    margin-left: -1.8em;
+}
+
+aside .profile .status-desc {
+
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #4403ddfa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+aside .profile .cog {
+
+    margin-top: 1.3em;
+    color: #ccc;
+    font-size: 22px;
+}
+
+aside .rating {
+
+    grid-column: 1/5;
+    padding-bottom: 1em;
+}
+
+aside .rating span {
+
+    display: inline-block;
+    margin-left: 1em;
+}
+
+aside .rating span.heart  i{
+ 
+    color: #f85757ee;
+    font-size: 1.3em;
+
+}
+
+aside .rating-no {
+
+    font-weight: bolder;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -1px !important;
+    
+}
+
+aside .btn-premuim button{
+
+    border-radius: 5px;
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #3d4ddf;
+    color: #ccc;
+}
+
+aside .features ul {
+
+    padding: 0;
+}
+
+aside .features ul li {
+    
+    display: flex;
+    
+}
+
+aside .features ul li span {
+    
+    display: inline-block;
+}
+
+aside .features ul li span:first-child{
+    color: #bbb;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside .features ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside .features ul li .channel-no,
+aside .features ul li .message-no,
+aside .features ul li .gift-no {
+    
+    border-radius: 7px;
+    font-size: 0.8em;
+    color: #ababab;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside .features ul li .channel-no {
+
+    padding: 2.5px 10px;
+    background: #ddd;
+    font-size: 0.8em;
+    color: #ababab;
+}
+
+aside .features ul li .message-no,
+aside .features ul li .gift-no {
+
+    background: rgba(240, 107, 67, 0.945);
+    color: #efefef;
+    padding: 2.5px 13px;
+}
+
+.main-section .pic-timeline {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.main-section .pic-timeline figure img{
+
+    height: 50px;
+    width: 50px;
+    border: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.main-section .pic-timeline figure.dots {
+
+    color: #aeaeae;
+    margin-top: 1.5em;
+    font-weight: lighter;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.main-section .main-pic {
+
+   background: radial-gradient(rgba(0,0,0,0), rgba(50,50,50,0.9)), url(images/main.jpg)  no-repeat center;
+   background-size: cover;
+   background-position:0 0;
+   border-radius: 15px;
+   height: 590px;
+}
+
+.main-section .arrow-container {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-pic .direction {
+
+    position: relative;
+    top: 28em;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    
+}
+
+.main-pic .direction .lessthan,
+.main-pic .direction .greaterthan {
+
+    background: #efefef;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 7px;
+    color: #cbcbcb;
+}
+
+.main-pic .direction div span:first-child {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 7px;
+}
+
+.main-pic .direction div span:first-child {
+
+    color: #fff;
+    background: #3545d1;
+    font-size: 1.8em;
+}
+
+.main-pic .direction div span:last-child {
+
+    color: #fff;
+    background: #e65d3b;
+    font-size: 1.8em;
+    margin-left: 0.8em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 7px;
+}
+
+aside.purchase .purchase-container {
+
+    margin-top: 2em;
+    border-radius: 7px;
+}
+
+aside.purchase .purchase-container button {
+
+    background: #3545d1;
+    color: #ebebeb;
+}
+
+aside.purchase .popular-container{
+
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #aaa;
+    line-height: 1.2em;
+    display: inline-block;
+    margin-bottom: 1em;
+    
+}
+
+aside.purchase .filter {
+
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    margin-top: 1em;
+    border-radius: 8px;
+}
+
+aside.purchase .filter .filter-icon {
+
+    color: #3545d1;;
+}
+
+aside.purchase .address {
+
+    background: #fff;
+    margin-top: 1em; 
+    border-radius: 10px; 
+}
+
+aside.purchase .address .name {
+
+    color: #bbb;
+    font-size: 0.7em;
+}
+
+aside.purchase div.country {
+
+    border-top: 1px solid #efefef;
+   
+
+}
+
+aside.purchase div.country div p:first-child{
+
+    color: #bbb;
+    font-size: 0.7em;
+}
+
+aside.purchase div.country div:last-child span {
+
+    background: #3545d1;
+    color: #cdcdcd;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+aside .interest {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: #aeaeae;
+    font-weight: bold;
+}
+
+aside .cinema {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7e7e7e;
+    font-weight: bolder;
+    font-size: 0.8em;
+    margin-top: 0.3em;
+}
+
+aside  .language  {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7e7e7e;
+    font-weight: bolder;
+    font-size: 0.8em;
+}
+
+aside .karina-page button{
+
+    background: #efefef;
+    color: #cfcfcf;
+    font-weight: bold;
+}
+aside .giftbox {
+
+    border-top: 1px solid #efefef;
+}
+
+aside .giftbox .communicate p:first-child{
+
+    font-weight: bolder;
+    font-size: 0.7em;
+    color: #7e7e7e;
+}
+
+aside .giftbox .communicate p:last-child{ 
+
+    color: #cfcfcf;
+    font-size: 0.7em;
+}
