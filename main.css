@@ -625,7 +625,7 @@ div.write-chat span input {
 }
 
 /********* this is the section for responsive *********/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1204px) {
   .top-menu .hambuger {
     display: inline-block;
     margin-top: 20px;
