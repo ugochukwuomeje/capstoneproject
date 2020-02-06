@@ -534,13 +534,25 @@ aside .giftbox {
 
 .main-chat-session .chatleft {
   background: url(images/chatimage.png) no-repeat;
+  background-size: 100% 90%;
 }
 
 /****************** this is for the chat page *******************/
+div.chat-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.chat-page .chat-left-section {
+  width: 35%;
+  margin-right: 20px;
+}
+
 div.main-chat-session {
   background-color: #fff;
   border-radius: 10px;
   margin-top: 1.9em;
+  width: 85%;
 }
 
 div.main-chat-session .search {
@@ -577,6 +589,7 @@ div.main-chat-session .bookmarks {
   display: flex;
   border-right: 1px solid #efefef;
   justify-content: space-between;
+  padding-top: 4em;
 }
 
 div.details1 {
@@ -624,8 +637,88 @@ div.write-chat span input {
   display: none;
 }
 
+.main-container {
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.main-container .left-column {
+  width: 77%;
+}
+
+.main-container .main-section {
+  width: 100%;
+  margin: 0 15px 0 15px;
+}
+
+.main-container .right-section {
+  width: 80%;
+  margin-left: 10px;
+}
+
 /********* this is the section for responsive *********/
 @media screen and (max-width: 1204px) {
+  aside .profile {
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 2em;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 15% 75% 10%;
+  }
+
+  .left-column {
+    display: none;
+  }
+
+  div.chat-page {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  div.main-chat-session {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 1.9em;
+    width: 100%;
+  }
+
+  div.chat-page .chat-left-section {
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  .main-section .main-pic {
+    background:
+      radial-gradient(rgba(0, 0, 0, 0), rgba(50, 50, 50, 0.9)),
+      url(images/main.jpg) no-repeat center;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    border-radius: 15px;
+    height: 590px;
+  }
+
+  .main-container {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .main-container .left-column {
+    width: 100%;
+  }
+
+  .main-container .main-section {
+    width: 100%;
+    margin: 0 15px 0 15px;
+  }
+
+  .main-container .right-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .top-menu .hambuger {
     display: inline-block;
     margin-top: 20px;
@@ -639,10 +732,6 @@ div.write-chat span input {
 
   .top-menu .notifications ul li:first-child,
   .top-menu .notifications ul li:last-child {
-    display: none;
-  }
-
-  .left-column {
     display: none;
   }
 

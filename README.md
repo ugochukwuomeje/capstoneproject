@@ -5,7 +5,11 @@
 
 This is a Microverse capstone project based on html css social network for finding acquittances. The project has three pages. The person detail page, with a link to the next/previous person detail and a link to the chat page. the chat page, with a list of chats that link to the chat detail page. The screen page has two break point for mobile screen size and desktop.
 
+## The main page
+![screenshot](school.png)
 
+## The Chat details page
+![screenshot](chatpage.png)
 
 ## Built With
 
@@ -21,6 +25,9 @@ This is a Microverse capstone project based on html css social network for findi
 
 [Live Demo Link](https://ugochukwuomeje.github.io/capstoneproject/)
 
+## Project Explanation
+
+[Project explanation](https://www.loom.com/share/9db3fcdeabc34e118cf344cffd645dfd)
 
 ## Getting Started
 
